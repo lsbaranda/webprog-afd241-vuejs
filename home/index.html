@@ -3,20 +3,51 @@
 <head>
   <title>My first Vue page</title>
   <link rel="stylesheet" href="css/style.css?version=0.1">
+  <link rel="stylesheet" href="css/css-flexbox-grid.css?version=0.1">
 </head>
 <body>
+    <div class="container">
+    <header>  About Me  <br>
+        Lyndon Baranda  <br>
+        <p id="loc">Living out in firey California!</p>
+    </header>
+    <main>
+      <section class="main-content">
+        <div>1 Goals In Life / Dream
+          <br>A cabin/homestead in the mountains
+        </div>
+        <div>2Education / Achievements
+          <br>BIM-CM Building Information Modeling - Construction Management
+        </div>
+        <div>3 Course 
+          <br> Bachelor of Science in Computer Science</div>
+        <div>4 IT Experience
+          <br> Network and Low Voltage - BIM Design and Detailing
+          <br> Electrical Designer
+        </div>
+      </section>
+       <aside class="sidebar">
+        Hobbies & Interests
+         <br>Metal Fabrication
+         <br>Off-road/Overland
+         <br>HAM Radio - KO6GKL
+        </aside>
+    </main>
+    <footer>
+        Picture Gallery
+    </footer>
+  </div>
+  <h2>External JavaScript</h2>
 
-<h1>Vue Example</h1>
-
-<p>The message is taken from 'data' inside the Vue instance by writing {{ message }} inside the div with id="app".</p>
-
-<div id="app">
-  {{ message }}
-</div>
-
-<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
-<script src="js/vue.js"></script>
-
-
+  <p id="demo">A Paragraph.</p>
+  
+  <button type="button" onclick="myFunction()">Click Me</button>
+  
+  <p>This example uses a full web URL to link to "myScript.js".</p>
+  <p>(myFunction is stored in "myScript.js")</p>
+  
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script src="js/vue.js"></script>
 </body>
+
 </html>

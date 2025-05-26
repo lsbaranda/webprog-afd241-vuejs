@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="comm">
       <h2>Leave a Comment</h2>
       <form @submit.prevent="submitComment">
         <div class="form-group">
@@ -77,6 +77,13 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+  }
+    .comm{
+    border: dashed black 1px;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: lightyellow;
   }
   </style>
   

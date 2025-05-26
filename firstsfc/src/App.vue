@@ -2,7 +2,9 @@
   <h1>Hello World!</h1>
   <h1>Food</h1>
   <food-item/>
-
+  <ul>
+    <li v-for="instrument in instruments" :key="instrument.id">{{ instrument.name }}</li>
+  </ul>
 </template>
 
 <script setup>

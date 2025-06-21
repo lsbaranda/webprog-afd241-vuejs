@@ -1,7 +1,7 @@
 const app = Vue.createApp({
    data() {
     return {
-     message: "Hello Philippines!",
+     message: "Hello from California!",
      vueClass: "pinkBG"
     }
    }
